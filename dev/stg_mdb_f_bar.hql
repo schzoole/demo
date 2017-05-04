@@ -20,4 +20,4 @@ WITH SERDEPROPERTIES('mongo.columns.mapping'='{"objectid":"_id",
 TBLPROPERTIES('mongo.uri'='mongodb://localhost:27017/marketdata.minibars');
 
 
-feature-002 add comment
+feature-002 add comment 
