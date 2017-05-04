@@ -1,0 +1,20 @@
+#Create Branch
+git checkout -b feature-001
+git checkout master 
+
+or 
+
+git branch feature-001
+git checkout feature-001
+
+
+#Add files
+git checkout feature-001
+notepad newfile.txt 
+git add .
+git status 
+
+#merge changes, promote code
+git checkout master
+#merges into master
+git merge featurebranch  
