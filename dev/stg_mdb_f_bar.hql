@@ -18,3 +18,6 @@ STORED BY 'com.mongodb.hadoop.hive.MongoStorageHandler'
 WITH SERDEPROPERTIES('mongo.columns.mapping'='{"objectid":"_id",
  "Symbol":"Symbol", "TS":"Timestamp", "Day":"Day", "Open":"Open", "High":"High", "Low":"Low", "Close":"Close", "Volume":"Volume"}')
 TBLPROPERTIES('mongo.uri'='mongodb://localhost:27017/marketdata.minibars');
+
+
+feature-002 add comment
